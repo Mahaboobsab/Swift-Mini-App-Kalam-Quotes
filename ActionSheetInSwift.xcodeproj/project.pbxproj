@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		296BD4241E51829900053556 /* AwardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BD4231E51829900053556 /* AwardsTableViewCell.swift */; };
+		296BD4261E5182AA00053556 /* AwardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BD4251E5182AA00053556 /* AwardsViewController.swift */; };
 		5236040B1E4DEF0E005E8129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236040A1E4DEF0E005E8129 /* AppDelegate.swift */; };
-		5236040D1E4DEF0E005E8129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236040C1E4DEF0E005E8129 /* ViewController.swift */; };
 		523604101E4DEF0E005E8129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5236040E1E4DEF0E005E8129 /* Main.storyboard */; };
 		523604121E4DEF0E005E8129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523604111E4DEF0E005E8129 /* Assets.xcassets */; };
 		523604151E4DEF0E005E8129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523604131E4DEF0E005E8129 /* LaunchScreen.storyboard */; };
 		523604201E4DEF0F005E8129 /* ActionSheetInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236041F1E4DEF0F005E8129 /* ActionSheetInSwiftTests.swift */; };
 		5236042B1E4DEF0F005E8129 /* ActionSheetInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236042A1E4DEF0F005E8129 /* ActionSheetInSwiftUITests.swift */; };
+		5236043A1E4E16F8005E8129 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523604391E4E16F8005E8129 /* Social.framework */; };
+		5236043E1E4E27A3005E8129 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236043D1E4E27A3005E8129 /* QuoteViewController.swift */; };
+		525A96CD1E4F4558009B8988 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A96CC1E4F4558009B8988 /* AboutTableViewController.swift */; };
+		526A5E281E507A9B00944770 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A5E271E507A9B00944770 /* ContactTableViewController.swift */; };
+		526A5E2B1E50823D00944770 /* MoreAppsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A5E2A1E50823D00944770 /* MoreAppsTableViewController.swift */; };
+		526A5E2D1E508E7800944770 /* FTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A5E2C1E508E7800944770 /* FTViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		296BD4231E51829900053556 /* AwardsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsTableViewCell.swift; sourceTree = "<group>"; };
+		296BD4251E5182AA00053556 /* AwardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsViewController.swift; sourceTree = "<group>"; };
 		523604071E4DEF0E005E8129 /* ActionSheetInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionSheetInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236040A1E4DEF0E005E8129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5236040C1E4DEF0E005E8129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5236040F1E4DEF0E005E8129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		523604111E4DEF0E005E8129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		523604141E4DEF0E005E8129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		523604261E4DEF0F005E8129 /* ActionSheetInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionSheetInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236042A1E4DEF0F005E8129 /* ActionSheetInSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetInSwiftUITests.swift; sourceTree = "<group>"; };
 		5236042C1E4DEF0F005E8129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523604391E4E16F8005E8129 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5236043D1E4E27A3005E8129 /* QuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		525A96CC1E4F4558009B8988 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		526A5E271E507A9B00944770 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		526A5E2A1E50823D00944770 /* MoreAppsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreAppsTableViewController.swift; sourceTree = "<group>"; };
+		526A5E2C1E508E7800944770 /* FTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5236043A1E4E16F8005E8129 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		296BD4201E51823700053556 /* Quote */ = {
+			isa = PBXGroup;
+			children = (
+				5236043D1E4E27A3005E8129 /* QuoteViewController.swift */,
+			);
+			name = Quote;
+			sourceTree = "<group>";
+		};
+		296BD4211E51824700053556 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				525A96CC1E4F4558009B8988 /* AboutTableViewController.swift */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		296BD4221E51827800053556 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				296BD4231E51829900053556 /* AwardsTableViewCell.swift */,
+				296BD4251E5182AA00053556 /* AwardsViewController.swift */,
+			);
+			name = Awards;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		523603FE1E4DEF0D005E8129 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,7 @@
 				5236041E1E4DEF0F005E8129 /* ActionSheetInSwiftTests */,
 				523604291E4DEF0F005E8129 /* ActionSheetInSwiftUITests */,
 				523604081E4DEF0E005E8129 /* Products */,
+				523604381E4E16F7005E8129 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +139,12 @@
 		523604091E4DEF0E005E8129 /* ActionSheetInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				296BD4221E51827800053556 /* Awards */,
+				296BD4211E51824700053556 /* About */,
+				296BD4201E51823700053556 /* Quote */,
+				526A5E291E50822200944770 /* More Apps */,
+				526A5E261E50799E00944770 /* ContactUs */,
 				5236040A1E4DEF0E005E8129 /* AppDelegate.swift */,
-				5236040C1E4DEF0E005E8129 /* ViewController.swift */,
 				5236040E1E4DEF0E005E8129 /* Main.storyboard */,
 				523604111E4DEF0E005E8129 /* Assets.xcassets */,
 				523604131E4DEF0E005E8129 /* LaunchScreen.storyboard */,
@@ -123,6 +169,31 @@
 				5236042C1E4DEF0F005E8129 /* Info.plist */,
 			);
 			path = ActionSheetInSwiftUITests;
+			sourceTree = "<group>";
+		};
+		523604381E4E16F7005E8129 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				523604391E4E16F8005E8129 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		526A5E261E50799E00944770 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				526A5E271E507A9B00944770 /* ContactTableViewController.swift */,
+				526A5E2C1E508E7800944770 /* FTViewController.swift */,
+			);
+			name = ContactUs;
+			sourceTree = "<group>";
+		};
+		526A5E291E50822200944770 /* More Apps */ = {
+			isa = PBXGroup;
+			children = (
+				526A5E2A1E50823D00944770 /* MoreAppsTableViewController.swift */,
+			);
+			name = "More Apps";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +264,7 @@
 				TargetAttributes = {
 					523604061E4DEF0E005E8129 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4WXHX2LK83;
 						ProvisioningStyle = Automatic;
 					};
 					5236041A1E4DEF0F005E8129 = {
@@ -259,8 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5236040D1E4DEF0E005E8129 /* ViewController.swift in Sources */,
+				5236043E1E4E27A3005E8129 /* QuoteViewController.swift in Sources */,
+				296BD4241E51829900053556 /* AwardsTableViewCell.swift in Sources */,
+				526A5E2B1E50823D00944770 /* MoreAppsTableViewController.swift in Sources */,
+				526A5E281E507A9B00944770 /* ContactTableViewController.swift in Sources */,
 				5236040B1E4DEF0E005E8129 /* AppDelegate.swift in Sources */,
+				525A96CD1E4F4558009B8988 /* AboutTableViewController.swift in Sources */,
+				526A5E2D1E508E7800944770 /* FTViewController.swift in Sources */,
+				296BD4261E5182AA00053556 /* AwardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +490,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WXHX2LK83;
 				INFOPLIST_FILE = ActionSheetInSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.meheboob.ActionSheetInSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meheboob.APJHindiQuotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +503,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WXHX2LK83;
 				INFOPLIST_FILE = ActionSheetInSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.meheboob.ActionSheetInSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meheboob.APJHindiQuotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -505,6 +585,7 @@
 				523604311E4DEF0F005E8129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		523604321E4DEF0F005E8129 /* Build configuration list for PBXNativeTarget "ActionSheetInSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +594,7 @@
 				523604341E4DEF0F005E8129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		523604351E4DEF0F005E8129 /* Build configuration list for PBXNativeTarget "ActionSheetInSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +603,7 @@
 				523604371E4DEF0F005E8129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
